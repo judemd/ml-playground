@@ -1,0 +1,352 @@
+{
+  "action": "artifact-create",
+  "user": {
+    "business_unit": {
+      "code": "0027",
+      "name": "LM TECHNOLOGY-LIT"
+    },
+    "department": {
+      "name": "ENTERPRISE DATA ENABLEMENT-SG1",
+      "number": "12760"
+    },
+    "email": "Liam.Young@liberty-it.co.uk",
+    "name": {
+      "display_name": "Liam Young",
+      "family_name": "Young",
+      "given_name": "Liam"
+    },
+    "pin": "n1563997",
+    "title": "Senior Data Scientist"
+  },
+  "forge": {
+    "business_unit": {
+      "links": [],
+      "guid": "3c8b4bfc-1788-4b21-ba6a-876183863a56",
+      "name": "Liberty IT",
+      "key": "liberty-it",
+      "roles": {
+        "business_unit_manager": [],
+        "production_deployer": [],
+        "build_pipeline_configurer": [],
+        "static_secrets_admin": [],
+        "non_production_deployer": [
+          "hs_lit_aws_nonprod_admin"
+        ],
+        "production_operator": [
+          "hs_secure_devops_customer_success",
+          "ets_cloudfoundry_operators"
+        ],
+        "development_admin": [],
+        "database_operator": [
+          "hs_breakglass_dba"
+        ],
+        "deployment_pipeline_configurer": [],
+        "remedy_security_approver": [
+          "IT SECURITY"
+        ],
+        "non_production_operator": [
+          "hs_secure_devops_customer_success",
+          "hs_lit_aws_nonprod_admin",
+          "ets_cloudfoundry_operators"
+        ]
+      },
+      "maven_profile": "ie"
+    },
+    "organization": {
+      "links": [],
+      "guid": "4b08e60e-f987-47f6-a512-9a708c178923",
+      "name": "LIT Incubator",
+      "key": "lit-incubator",
+      "support_email": "Incubator@Liberty-IT.co.uk",
+      "department_codes": [],
+      "business_unit_guid": "3c8b4bfc-1788-4b21-ba6a-876183863a56",
+      "roles": {
+        "production_deployer": [
+          "ets_lit_incubator_prod_deployer",
+          "ets_lit_incubator_deployer",
+          "ets_lit_inc_exploratory_production_deployer"
+        ],
+        "organization_manager": [
+          "ets_lit_inc_exploratory_admin",
+          "ets_lit_incubator_admin"
+        ],
+        "build_pipeline_configurer": [
+          "ets_lit_inc_exploratory_build_configurer",
+          "ets_lit_incubator_build_configurer"
+        ],
+        "non_production_deployer": [
+          "pi_immc_developer",
+          "ets_lit_inc_exploratory_developer",
+          "ets_lit_incubator_developer"
+        ],
+        "production_operator": [
+          "ets_lit_incubator_production_operator",
+          "ets_lit_inc_exploratory_production_operator",
+          "ets_lit_incubator_admin"
+        ],
+        "developer": [
+          "pi_immc_developer",
+          "ets_lit_inc_exploratory_developer",
+          "ets_lit_incubator_developer"
+        ],
+        "development_admin": [
+          "ets_lit_inc_exploratory_admin",
+          "ets_lit_incubator_development_admin"
+        ],
+        "database_operator": [],
+        "deployment_pipeline_configurer": [
+          "ets_lit_incubator_deploy_configurer",
+          "ets_lit_inc_exploratory_deploy_configurer"
+        ],
+        "non_production_operator": [
+          "pi_immc_developer",
+          "ets_lit_inc_exploratory_developer",
+          "ets_lit_incubator_developer"
+        ]
+      },
+      "troux_application_uuids": [
+        "6B0EF041-B3EE-4506-8A3C-65D38647E074",
+        "CB10BF08-2A66-46D9-BC7B-0E5AE60DAA26",
+        "CF871AC1-C477-407A-ACF7-0EC78950CABB",
+        "4ACF7499-B34D-4FD2-AED6-7D2204C42E68",
+        "17097726-1B9A-4A1C-B1AC-CC42C0FB23B4",
+        "46AC0EAE-523B-4616-8644-A6376C80068C",
+        "A658C7E4-5C24-4378-92F9-85607C3F857D",
+        "E5FA18BB-D568-4B9D-9F05-E97C83379D92",
+        "4466FA00-D82D-4595-B06F-DC9643F64B99",
+        "2BACFB10-B95C-4C12-9DEC-2FC6BD821BD9"
+      ]
+    },
+    "build_provisioned_tool": {
+      "links": [],
+      "guid": "7817c23e-3de2-46c5-9e86-98fce119e027",
+      "name": "LIT Incubator",
+      "url": "https://forge.lmig.com/builds/browse/LITINC",
+      "provisioned_key": "LITINC",
+      "organization_guid": "4b08e60e-f987-47f6-a512-9a708c178923",
+      "tool_instance_guid": "62f47035-c316-47bd-90b7-a0ee285edc98",
+      "primary": true
+    },
+    "troux_application": {
+      "uuid": "CF871AC1-C477-407A-ACF7-0EC78950CABB",
+      "name": "Machine Learning - POC"
+    },
+    "artifact": {
+      "links": [],
+      "guid": "8740b1c1-1af0-4e99-a898-3a3b610cd773",
+      "created_date": "2023-10-31T09:19:22+0000",
+      "created_by": "Liam.Young@liberty-it.co.uk",
+      "updated_date": "2023-10-31T09:19:22+0000",
+      "updated_by": "Liam.Young@liberty-it.co.uk",
+      "version": 0,
+      "name": "dsc-im-on-smoko-lit",
+      "key": "dsc-im-on-smoko-lit",
+      "organization_guid": "4b08e60e-f987-47f6-a512-9a708c178923",
+      "deployable": false,
+      "state": "PENDING_CREATE",
+      "offering_guid": "7225b869-2bb7-4f8f-b3a6-e3627437c4fe",
+      "plan_guid": "ede10e6a-326e-43f0-923c-076766923be5",
+      "description": "",
+      "options": {
+        "python-version": "3.9",
+        "mypy-option": "false",
+        "nbstripout-option": "false",
+        "code-generation-option": "basic"
+      },
+      "addons": [],
+      "tags": {},
+      "scm_repo_url": "https://github.com/lmigtech/dsc-im-on-smoko-lit.git",
+      "build_pipeline": {},
+      "default_repo_access": "READ_ONLY",
+      "type": "CodeBasedArtifact"
+    },
+    "deployment": null,
+    "deployments": []
+  },
+  "offering": {
+    "guid": "7225b869-2bb7-4f8f-b3a6-e3627437c4fe",
+    "name": "Data Science Model Pipeline Template",
+    "version": "90-main+90",
+    "tags": [
+      "data_engineering",
+      "python"
+    ],
+    "parameters": {},
+    "features": [
+      {
+        "title": "Build and log a model to MLFlow",
+        "description": "Provide a standard layout with skeleton code and customization placeholders to assist with model build, evaluation and logging."
+      }
+    ],
+    "documentation": [
+      {
+        "name": "How to Python on CloudForge",
+        "url": "https://forge.lmig.com/wiki/display/CLOUDFORGE/How+to+Python+on+CloudForge"
+      },
+      {
+        "name": "Pipenv Documentation",
+        "url": "https://pipenv.pypa.io/en/latest/"
+      },
+      {
+        "name": "Model Pipeline Documentation",
+        "url": "https://github.com/lmigtech/Data-Science-Model-Pipeline-Template-Generator/blob/main/content/README.md"
+      }
+    ],
+    "communities": [
+      {
+        "name": "Python Questions",
+        "type": "stack_overflow",
+        "url": "https://questions.forge.lmig.com/questions/tagged/19"
+      }
+    ],
+    "support": {
+      "incidents": {},
+      "general": {
+        "level": "best_effort",
+        "channels": [
+          {
+            "name": "Email",
+            "type": "generic",
+            "url": "mailto:neil.smyth@liberty-it.co.uk,darren.forsythe@liberty-it.co.uk?subject=Data%20Science%20Model%20Pipeline%20Template&body=%3CYour%20question%20goes%20here%20%3A)%3E"
+          },
+          {
+            "name": "GitHub Enterprise Issue",
+            "type": "generic",
+            "url": "https://github.com/lmigtech/Data-Science-Model-Pipeline-Template-Generator/issues/new/choose"
+          }
+        ]
+      }
+    },
+    "source_type": "YAML",
+    "artifact_guid": "608b801c-9b4b-47af-a9a6-bef15c84f7f1",
+    "deployment_guid": "d1235df9-84b6-4794-977d-09a07a05642f",
+    "organization_guid": "4b08e60e-f987-47f6-a512-9a708c178923",
+    "business_unit_guid": "3c8b4bfc-1788-4b21-ba6a-876183863a56",
+    "environment_key": "production"
+  },
+  "plan": {
+    "guid": "ede10e6a-326e-43f0-923c-076766923be5",
+    "name": "Data Science Model Pipeline",
+    "key": "plan-key-1",
+    "type": "artifact",
+    "features": [
+      "Skeleton project layout",
+      "Use a specified version of Python for your project",
+      "Use pipenv for dependency management",
+      "Use the DS CLI to run common tasks in a cross-platform way (Mac/Linux/Windows)",
+      "Leverage the DS Utils library for MLFlow/S3 authentication"
+    ],
+    "artifacts": [
+      {
+        "name": "artifact-1",
+        "pipeline": "none",
+        "generators": [
+          {
+            "name": "repo.forge.lmig.com/docker/liberty-it/lit-incubator/data-science-model-pipeline-template-generator",
+            "version": "1.0.21",
+            "parameters": {}
+          }
+        ],
+        "restrictions": {},
+        "parameters": {},
+        "scm_tools": [
+          "github"
+        ],
+        "automatic_first_build": true
+      }
+    ],
+    "options": [
+      {
+        "key": "python-version",
+        "name": "Python Version",
+        "description": "Set the Python version for the project, e.g. 3.8",
+        "overridableByEnvironment": false,
+        "type": "provided",
+        "values": [
+          {
+            "value": "3.8",
+            "name": "3.8",
+            "description": "Python 3.8",
+            "default": false
+          },
+          {
+            "value": "3.9",
+            "name": "3.9",
+            "description": "Python 3.9",
+            "default": false
+          }
+        ]
+      },
+      {
+        "key": "code-generation-option",
+        "name": "Code Generation",
+        "description": "Determine what type of code is generated",
+        "overridableByEnvironment": false,
+        "type": "provided",
+        "values": [
+          {
+            "value": "basic",
+            "name": "Basic",
+            "description": "Generate basic skeleton code with TODO: placeholders to indicate where to add your own code.",
+            "default": true
+          },
+          {
+            "value": "penguins",
+            "name": "Penguins",
+            "description": "Generate code to build a model based on the 'penguins' dataset, as a working example.",
+            "default": false
+          }
+        ]
+      },
+      {
+        "key": "mypy-option",
+        "name": "Use MyPy",
+        "description": "Use MyPy (static type checker) in the pre-commit hooks. This will force you to use static types, for more info - https://docs.python.org/3/library/typing.html",
+        "overridableByEnvironment": false,
+        "type": "provided",
+        "values": [
+          {
+            "value": "false",
+            "name": "No",
+            "description": "Do not setup the pre-commit hooks with MyPy.",
+            "default": true
+          },
+          {
+            "value": "true",
+            "name": "Yes",
+            "description": "Setup the pre-commit hooks with MyPy",
+            "default": false
+          }
+        ]
+      },
+      {
+        "key": "nbstripout-option",
+        "name": "Use nbstripout",
+        "description": "Use nbstripout (automatically strips output from jupyter notebooks) in the pre-commit hooks. This will force you to NOT commit output cells in Jupyter notebooks, for more info - https://github.com/kynan/nbstripout",
+        "overridableByEnvironment": false,
+        "type": "provided",
+        "values": [
+          {
+            "value": "false",
+            "name": "No",
+            "description": "Do not setup the pre-commit hooks with nbstripout.",
+            "default": true
+          },
+          {
+            "value": "true",
+            "name": "Yes",
+            "description": "Setup the pre-commit hooks with nbstripout",
+            "default": false
+          }
+        ]
+      }
+    ],
+    "environments": [],
+    "parameters": {},
+    "use_cases": [
+      "Creating a standardized DS project layout across models and teams.",
+      "Facilitating the use of Databricks Managed MLFlow for model tracking."
+    ]
+  },
+  "parameters": {}
+}

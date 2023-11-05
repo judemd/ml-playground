@@ -1,0 +1,31 @@
+[[source]]
+url = "https://repo.forge.lmig.com/api/pypi/python/simple"
+verify_ssl = true
+name = "liberty_pypi"
+
+[packages]
+lit-ds-utils = "~=3.6"
+flask = "~=2.2"  # Required for integration tests with mlflow
+mlflow-skinny = "~=2.6.0"
+scikit-learn = "~=1.1"
+pandas = ">=1.4,<2.0"
+# Add your own project dependencies here
+
+[dev-packages]
+#All Dev packages will update to the latest minor version. MAJOR.MINOR.PATCH
+black = "~=22.6"
+darglint = "~=1.8"
+isort = "~=5.10"
+mypy = ">=0.971"
+pydocstyle = "~=6.1"
+flake518 = "~=1.2"
+pytest-cov = "~=3.0"
+pytest-mock = "~=3.8"
+pytest = "~=7.1"
+toml = "~=0.10"
+pre-commit = "~=2.20"
+types-python-dateutil = "~=2.8.19"
+nbstripout= "~=0.6.1"
+
+[requires]
+python_version = "3.9.13"

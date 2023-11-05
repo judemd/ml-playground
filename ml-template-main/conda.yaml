@@ -1,0 +1,27 @@
+name: dsc_env
+channels:
+  - https://repo.forge.lmig.com/conda-forge
+dependencies:
+  - python=3.8.*
+  - pip=22.2.*
+  - pip:
+      - lit-ds-utils~=3.6
+      - numpy==1.23.*
+      - pandas==1.5.*
+      - scikit-learn==1.1.*
+      - mlflow==1.30.0
+      - pre-commit==2.20.*
+      - pytest==7.1.*
+      - pytest-cov==4.0.*
+      - black==22.8.*
+      - isort==5.10.*
+      - pyarrow==9.0.*
+      - s3fs==2022.8.*
+      - ipykernel==6.16.*
+      - dsc_2023_scoring_template==0.1.6
+      - autogluon
+      - ydata_profiling
+      - vowpalwabbit>=9.0, <9.5
+      - gensim==4.3.2
+      - category-encoders==2.6.3
+      - vaderSentiment==3.3.2

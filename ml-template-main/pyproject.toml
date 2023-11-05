@@ -1,0 +1,70 @@
+[tool.pytest.ini_options]
+addopts = [
+    "--junitxml=junit.xml"
+]
+testpaths = [
+    "tests/",
+]
+python_files = [
+    "test_*.py",
+    "integration_test_*.py",
+    "*_test.py",
+    "*_tests.py"]
+junit_duration_report = "call"
+faulthandler_timeout = 300
+
+[tool.coverage.run]
+source = ["pipeline"]
+omit = ["*/tests/*.py", "*/__init__.py"]
+[tool.coverage.report]
+include = ["pipeline/*"]
+
+[tool.isort]
+profile = "black"
+src_paths = ["pipeline"]
+
+[tool.flake8]
+max-line-length = 120
+extend-ignore = "E203, E266, E501, W503, W605"
+max-complexity = 10
+select = "B, C, E, F, W, T4"
+# Darglint config
+strictness = "full"
+docstring_style = "google"
+message_template = "{path}:{line}  {msg_id}:{msg}"
+
+[tool.pydocstyle]
+convention = "google"
+match-dir='^(?!tests).*'  # Exclude tests
+add-ignore="D104, D100, D107"
+
+[tool.mypy]
+# http://mypy.readthedocs.io/en/latest/config_file.html#config-file
+python_version = "3.9"
+check_untyped_defs = "True"
+ignore_missing_imports = "True"
+no_implicit_optional = "True"
+strict_optional = "False"
+warn_redundant_casts = "True"
+warn_return_any = "True"
+warn_unused_ignores = "True"
+disallow_untyped_calls = "True"
+disallow_untyped_defs = "True"
+
+[[tool.mypy.overrides]]
+# Ignore the tests
+module = [
+    "tests.*",
+    ".venv.*"
+]
+ignore_errors = "True"
+
+[tool.black]
+line-length = 120
+exclude = '''
+^/(
+  (
+    | tests
+  )/
+)
+'''
